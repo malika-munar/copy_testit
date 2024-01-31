@@ -1,0 +1,11 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    
+}
+body {
+    background-color: lightpink;
+}
+.a:hover{
+    color: darkgreen;
+}

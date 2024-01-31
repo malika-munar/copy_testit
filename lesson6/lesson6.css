@@ -1,0 +1,96 @@
+h1{
+    font-size: 30px;
+}
+
+html{
+    font-size: 24px;
+}
+
+.section1{
+    font-size: 24px;
+    background-color: coral;
+    width: 50dvw;
+    height: 100vh ;
+   }
+
+
+
+   .text1{
+    font: size 0.5em;
+    margin-top: 4em;
+    background-color: bisque;
+   }
+
+   .text2{
+    font: size 1em;
+    margin-top: 6em;
+    background-color: aqua;
+   }
+
+   .text3{
+    font: size 1.5em;
+    margin-top: 10em;
+    background-color: chartreuse;
+   }
+
+   .text4{
+    font: size 2em;
+    margin-top: 12em;
+    background-color: grey;
+   }
+
+   .section2{
+    font-size: 8px;
+   }
+   .section2 p{
+    font-size: 8em;
+
+   }
+
+   .section1 p{
+   width: 20%;
+   }
+   p{
+    color: darkorchid; 
+   }
+   .section1 p{
+    color: green;
+   }
+
+   #text4id{
+    color: black;!important
+   }
+
+   .div1{
+    width: 200px;
+    height: 200px;
+    padding:20px ;
+    border: 10px solid black;
+    margin-top: 20px;
+    background: yellow;
+    box-sizing: content-box;
+
+    width: calc(100%-40px);
+    display: flex;
+
+   }
+
+
+   .div2{
+    width: 200px;
+    height: 200px;
+    padding:20px ;
+    border: 10px solid black;
+    margin-top: 20px;
+    background: pink;
+    box-sizing: border-box;
+    float: right;
+    width: max(50%, 300px);
+   }
+
+   .div1 p{
+    width: calc(100%-100px);
+   }
+   .div1 button {
+    width: 100px;
+   }

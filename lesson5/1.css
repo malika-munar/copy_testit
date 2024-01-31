@@ -1,0 +1,77 @@
+body {
+    background: url(https://images.unsplash.com/photo-1698825810702-10bb885eec26?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+.hero {
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    
+}
+
+.hero h1{
+
+    color: aliceblue;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 29, 255, 0.3);
+    text-align: center;
+}
+
+.hero h1::before{
+    content: "%%%%%"
+}
+
+.hero h1::after {
+    content: "%%%%%"
+}
+.section1{
+    padding-bottom: 120px;
+}
+.section1 p{
+    max-width: 400px;
+    max-height: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: blueviolet;;
+    font-size: 32px;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    overflow: scroll;
+}
+
+.section1 p:hover{
+    color: hotpink;
+}
+
+.section1 p:first-child{
+    color: gold;
+}
+
+.section1 p:last-child{
+    color: cyan;
+
+}
+
+.section1 p::first-line{
+    font-size: 80px;
+    font-weight: bold;
+}
+ul{
+    font-size: 24px;
+    margin-left: 50px;
+    color: ghostwhite;
+    list-style: square;
+}
+ul li::marker{
+    color: dodgerblue;
+    font-size: 50px;
+}

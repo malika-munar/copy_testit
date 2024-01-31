@@ -1,0 +1,15 @@
+
+
+.div{
+    width: 100%;
+    background-color: chartreuse;
+    
+}
+
+
+@media screen (max-widht:768px) {
+  .div{
+    background-color: red
+    
+  }  
+}
